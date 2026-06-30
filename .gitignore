@@ -1,0 +1,34 @@
+# Visual Studio user/workspace state
+.vs/
+*.user
+*.suo
+*.VC.db
+*.VC.VC.opendb
+
+# Build outputs
+x64/
+[Dd]ebug/
+[Rr]elease/
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.iobj
+*.ipdb
+*.exe
+*.dll
+*.lib
+*.exp
+*.recipe
+*.tlog/
+*.lastbuildstate
+
+# Vendored dependencies should be published as source, not nested repositories.
+third_party/**/.git/
+
+# Local/editor noise
+*.log
+*.tmp
+*.bak
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,32 @@
+Nirvana v2: Electric Boogaloo
+Return-provenance detection for raw and gadgeted direct syscalls.
+
+Project: DirectSyscallDetector
+Copyright 2026 Cameron Babcock
+
+Author / Researcher:
+Cameron Babcock
+Email: Cameron@CameronBabcock.net
+LinkedIn: https://www.linkedin.com/in/cameronbabcock/
+
+Project Summary:
+Nirvana v2: Electric Boogaloo is the research name for DirectSyscallDetector's
+return-provenance technique for raw and gadgeted direct syscalls. The project
+demonstrates instrumentation-callback-based direct syscall detection, live
+syscall return-address cataloging from ntdll.dll and win32u.dll, and
+PHNT-backed syscall signature printing from recovered syscall IDs.
+
+Attribution:
+Redistributions and derivative works must preserve the attribution notices
+required by the Apache License, Version 2.0, including this NOTICE file where
+applicable.
+
+Professional Contact:
+If this work is useful to your EDR, CNO, pentest agent work, endpoint security,
+Windows internals, or detection engineering team, please contact Cameron
+Babcock using the email or LinkedIn profile above regarding research,
+consulting, or employment opportunities.
+
+Third-Party Notices:
+This repository vendors PHNT from the System Informer project under its own MIT
+license. See third_party/phnt/LICENSE for the PHNT license text.

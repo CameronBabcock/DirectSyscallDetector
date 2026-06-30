@@ -1,0 +1,19 @@
+* text=auto
+
+.gitattributes text eol=lf
+.gitignore text eol=lf
+LICENSE text eol=lf
+NOTICE text eol=lf
+README.md text eol=lf
+
+*.sln text eol=crlf
+*.vcxproj text eol=crlf
+*.filters text eol=crlf
+*.props text eol=crlf
+*.targets text eol=crlf
+
+*.cpp text eol=crlf
+*.h text eol=crlf
+*.asm text eol=crlf
+*.py text eol=lf
+*.md text eol=lf
